@@ -1,0 +1,21 @@
+form{
+ text-align: center;
+}
+.container-form{
+   width: 100%;
+   position: relative;
+   padding-top: 25px;
+}
+.container-image{
+   border: 1px black;
+}
+@media (min-width: 481px){
+   .container-form{
+      display: flex;
+      flex-wrap: nowrap;
+   }
+   .form-group{
+      float: right;
+      width: 50%;
+   }
+}
